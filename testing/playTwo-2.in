@@ -1,0 +1,7 @@
+java -ea amazons.Main
+# Play Black against another version of myself.
+seed 293845
+* time 30 90
+# Receive moves from other player and respond until someone wins.
+*remote move/win
+

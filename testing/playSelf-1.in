@@ -1,0 +1,9 @@
+java -ea amazons.Main
+# Make reproducible
+seed 1234569
+# Allow 30 seconds/move, and 180 seconds for a complete set of moves
+*time 30 180
+# Make both players into AIs
+auto white
+# Play a complete game
+* move/win

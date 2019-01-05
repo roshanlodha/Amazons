@@ -1,0 +1,10 @@
+java -ea amazons.Main
+# Play White against another version of myself.
+seed 293845
+manual Black
+* time 30 90
+auto White
+# First, get a white move and send to the other player
+*move
+# Next, receive moves from other player and respond until someone wins.
+*remote move/win
